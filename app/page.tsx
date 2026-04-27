@@ -143,7 +143,7 @@ export default function ContactForm() {
                             <form className="contact-form">
                                 <input name="name" type="text" placeholder="Name" required />
                                 <input name="email" type="email" placeholder="Email" required />
-                                <textarea name="message" placeholder="Message" rows="5" required />
+                                <textarea name="message" placeholder="Message" required />
                                 <button type="submit" className="btn btn-primary">
                                     Send Message
                                 </button>
