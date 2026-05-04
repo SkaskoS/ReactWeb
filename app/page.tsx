@@ -17,7 +17,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 
     console.log("Sending:", data);
 
-    const res = await fetch("https://localhost:7229/api/contact", {
+    const res = await fetch("https://stephen-portfolio-api.azurewebsites.net/api/contact", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
