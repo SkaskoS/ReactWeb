@@ -881,3 +881,13 @@ a {
 .page-title {
     text-align: center;
 }
+.contact-success {
+    text-align: center;
+    padding: 2rem;
+    background: #f7f7fa;
+    border-radius: 8px;
+}
+
+    .contact-success h3 {
+        color: #0b2d52;
+    }

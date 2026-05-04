@@ -37,8 +37,7 @@ export default function ContactForm() {
 
     return (
         <main className="page">
-            {/* keep all your existing sections above contact the same */}
-
+            
             <section id="contact" className="section">
                 <div className="section-inner">
                     <div className="contact-grid">
@@ -55,8 +54,7 @@ export default function ContactForm() {
 
                             {submitted ? (
                                 <div className="contact-success">
-                                    <h3>Message Sent</h3>
-                                    <p>Thanks for reaching out — I’ll get back to you soon.</p>
+                                    <p>Thank you for you submission! I’ll get back to you as soon as I can.</p>
                                 </div>
                             ) : (
                                 <form className="contact-form" onSubmit={handleSubmit}>
