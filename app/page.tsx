@@ -193,7 +193,7 @@ export default function ContactForm() {
                             {submitted ? (
                                 <div className="contact-success">
                                     <h3>Message Sent</h3>
-                                    <p>Thanks for reaching out — I’ll get back to you soon.</p>
+                                    <p>Thank you for reaching out! I’ll get back to you as soon as I can.</p>
                                 </div>
                             ) : (
                                 <form className="contact-form" onSubmit={handleSubmit}>
