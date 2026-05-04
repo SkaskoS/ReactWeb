@@ -19,7 +19,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
     title: "Stephen Skasko | Junior Web Developer Portfolio",
-    description: "Portfolio of Stephen Skasko || Junior Web Developer specializing in UI-focused development, backend-connected features, and data-driven web solutions.",
+    description: "Portfolio of Stephen Skasko | Junior Web Developer specializing in UI-focused development, backend-connected features, and data-driven solutions.",
+    icons: {
+        icon: "/favicon.ico",
+    },
 };
 
 export default function RootLayout({

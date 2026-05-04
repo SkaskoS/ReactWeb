@@ -13,7 +13,7 @@ const projects = [
         title: "Dynamic Form System"
     },
     {
-        number: "03",
+        number: "02",
         title: "API + Database Integration"
     },
 ];

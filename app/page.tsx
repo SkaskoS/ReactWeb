@@ -14,9 +14,7 @@ export default function ContactForm() {
                     <p className="eyebrow">Junior Web Developer</p>
                     <h1 className="title">Stephen Skasko</h1>
                     <p className="subtitle">
-                        Building clean, modern web experiences with thoughtful UI,
-                        responsive front-end development, and practical backend problem
-                        solving.
+                        I enjoy bringing frontend and backend together to create smooth, reliable, data-driven experiences.
                     </p>
 
                     <div className="hero-buttons">
@@ -51,75 +49,97 @@ export default function ContactForm() {
                 <div className="section-inner projects-inner">
                     <p className="section-label">Experience</p>
                     <h2 className="section-title">Experience Overview</h2>
-
                     <div className="experience-block">
-                        <h3>Web Development</h3>
+                        <h3>Frontend & UI Development</h3>
                         <div className="pill-row">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                            <span>React</span>
-                            <span>Next.js</span>
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript (ES6)</span>
                             <span>Bootstrap</span>
+                            <span>jQuery</span>
                             <span>Responsive Design</span>
-                            <span>Accessibility</span>
+                            <span>Accessibility (ADA)</span>
                             <span>UI / UX</span>
                         </div>
                     </div>
 
                     <div className="experience-block">
-                        <h3>Data / Systems</h3>
+                        <h3>Backend & API Integration</h3>
                         <div className="pill-row">
-                            <span>SQL Server</span>
-                            <span>SSRS</span>
-                            <span>Reporting</span>
+                            <span>C#</span>
+                            <span>ASP.NET Core Web API</span>
+                            <span>REST APIs</span>
+                            <span>AJAX</span>
+                            <span>JSON</span>
                             <span>API Integration</span>
-                            <span>Form Workflows</span>
-                            <span>Database Design</span>
-                            <span>Testing</span>
-                            <span>Troubleshooting</span>
                         </div>
                     </div>
 
-                    <div className="experience-block subtle">
-                        <h3>Additional Tools</h3>
+                    <div className="experience-block">
+                        <h3>Data & Reporting</h3>
                         <div className="pill-row">
+                            <span>SQL Server</span>
+                            <span>T-SQL</span>
+                            <span>SSRS</span>
+                            <span>Data Modeling</span>
+                            <span>Query Optimization</span>
+                        </div>
+                    </div>
+
+                    <div className="experience-block">
+                        <h3>Platforms & Tools</h3>
+                        <div className="pill-row">
+                            <span>Git / GitHub</span>
+                            <span>IIS</span>
                             <span>SharePoint</span>
                             <span>Drupal</span>
-                            <span>Meditech</span>
+                            <span>Classic ASP</span>
+                            <span>VBScript</span>
                         </div>
                     </div>
 
                     <div className="experience-accordions">
                         <details className="experience-accordion">
-                            <summary>Web Development Work</summary>
+                            <summary>Web Development & UI Engineering</summary>
                             <p>
-                                Built and maintained websites and web-based solutions using HTML, CSS,
-                                JavaScript, and Bootstrap, with a focus on responsive, accessible UI.
+                                Built and maintained responsive, accessible web interfaces using HTML, CSS,
+                                JavaScript, and Bootstrap, with a focus on clean UI, usability, and consistent
+                                user experience across devices.
                             </p>
                         </details>
 
                         <details className="experience-accordion">
-                            <summary>Reporting & Data Systems</summary>
+                            <summary>Backend-Connected Features</summary>
                             <p>
-                                Developed SQL queries and SSRS reports, supported structured data
-                                workflows, and worked with reporting automation and secure access.
+                                Developed end-to-end features by connecting frontend forms to backend APIs
+                                and SQL Server databases, enabling reliable data capture, processing, and
+                                integration with reporting systems.
                             </p>
                         </details>
 
                         <details className="experience-accordion">
-                            <summary>Intranet / CMS Platforms</summary>
+                            <summary>Data, Reporting & Automation</summary>
                             <p>
-                                Built and maintained internal pages and forms across CMS-driven and
-                                intranet platforms including SharePoint and Drupal-based environments.
+                                Designed SQL queries and SSRS reports to support operational workflows,
+                                automated data processes, and ensured accurate, secure access to reporting data.
                             </p>
                         </details>
 
                         <details className="experience-accordion">
-                            <summary>Troubleshooting & Support</summary>
+                            <summary>CMS & Intranet Platforms</summary>
                             <p>
-                                Diagnosed and resolved issues across websites, forms, APIs, SQL
-                                systems, IIS, and routing or redirect configurations.
+                                Built and maintained internal applications and content across CMS and intranet
+                                platforms including SharePoint and Drupal, supporting dynamic content, forms,
+                                and organizational workflows.
+                            </p>
+                        </details>
+
+                        <details className="experience-accordion">
+                            <summary>Debugging & Production Support</summary>
+                            <p>
+                                Diagnosed and resolved issues across frontend, backend APIs, SQL databases,
+                                and IIS configurations, ensuring stability of production systems and resolving
+                                routing, data flow, and performance problems.
                             </p>
                         </details>
                     </div>
@@ -134,9 +154,7 @@ export default function ContactForm() {
                             <p className="section-label">Contact</p>
                             <h2 className="section-title section-title-contact">Get in Touch</h2>
                             <p className="section-text">
-                                I’m interested in web development, UI-focused work, backend-connected
-                                features, and building better digital experiences.
-                            </p>
+                                    I’m interested in building end-to-end applications that connect user interfaces, APIs, and data systems. I focus on developing backend-connected features, working with SQL-based data, and improving performance, reliability, and overall system functionality.                            </p>
                         </div>
 
                         <div className="contact-right">
