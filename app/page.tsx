@@ -11,7 +11,7 @@ export default function ContactForm() {
                 <SnowCanvas />
 
                 <div className="hero-content">
-                    <p className="eyebrow">Junior Web Developer</p>
+                    <p className="eyebrow">Web Developer</p>
                     <h1 className="title">Stephen Skasko</h1>
                     <p className="subtitle">
                         I enjoy bringing frontend and backend together to create smooth, reliable, data-driven experiences.
