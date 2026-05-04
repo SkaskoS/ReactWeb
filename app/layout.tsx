@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "Stephen Skasko | Junior Web Developer Portfolio",
-    description: "Portfolio of Stephen Skasko | Junior Web Developer specializing in UI-focused development, backend-connected features, and data-driven solutions.",
+    title: "Stephen Skasko | Web Developer Portfolio",
+    description: "Portfolio of Stephen Skasko | Web Developer specializing in UI-focused development, backend-connected features, and data-driven solutions.",
     icons: {
         icon: "/favicon.ico",
     },
