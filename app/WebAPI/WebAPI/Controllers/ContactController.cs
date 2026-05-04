@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using WebAPI.Models;
+using Microsoft.AspNetCore.RateLimiting;
 using System.Net;
 using System.Net.Mail;
+using WebAPI.Models;
 
 namespace WebAPI.Controllers
 {
@@ -15,7 +16,7 @@ namespace WebAPI.Controllers
         {
             _config = config;
         }
-
+        [EnableRateLimiting("contactPolicy")]
         [HttpPost]
         public async Task<IActionResult> Post(ContactRequest request)
         {

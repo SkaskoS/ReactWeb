@@ -1,3 +1,6 @@
+using Microsoft.AspNetCore.RateLimiting;
+using System.Threading.RateLimiting;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services
@@ -17,6 +20,16 @@ builder.Services.AddCors(options =>
             .AllowAnyMethod();
     });
 });
+builder.Services.AddRateLimiter(options =>
+{
+    options.AddFixedWindowLimiter("contactPolicy", opt =>
+    {
+        opt.PermitLimit = 5; 
+        opt.Window = TimeSpan.FromMinutes(1); 
+        opt.QueueLimit = 0;
+    });
+});
+
 
 var app = builder.Build();
 
@@ -29,6 +42,7 @@ if (app.Environment.IsDevelopment())
 
 //app.UseHttpsRedirection();
 app.UseCors("AllowFrontend");
+app.UseRateLimiter();
 app.UseAuthorization();
 app.MapControllers();
 
