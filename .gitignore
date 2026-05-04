@@ -43,5 +43,10 @@ next-env.d.ts
 # Build output
 /.next
 
-# WebAPI outputs
-/app/WebAPI
+# API
+.env.local
+
+# Visual Studio
+.vs/
+*.user
+*.suo

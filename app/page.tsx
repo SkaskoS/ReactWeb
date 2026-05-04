@@ -3,6 +3,38 @@
 import SnowCanvas from "../components/SnowCanvas";
 import ProjectsCarousel from "../components/ProjectsCarousel";
 
+
+const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const formData = new FormData(e.currentTarget);
+
+    const data = {
+        name: formData.get("name"),
+        email: formData.get("email"),
+        message: formData.get("message"),
+    };
+
+    console.log("Sending:", data);
+
+    const res = await fetch("https://localhost:7229/api/contact", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+    });
+
+    console.log("Response:", res.status);
+
+    if (res.ok) {
+        alert("Message sent!");
+        e.currentTarget.reset();
+    } else {
+        alert("Message failed.");
+    }
+};
+
 export default function ContactForm() {
 
     return (
@@ -158,7 +190,7 @@ export default function ContactForm() {
                         </div>
 
                         <div className="contact-right">
-                            <form className="contact-form">
+                            <form className="contact-form" onSubmit={handleSubmit}>
                                 <input name="name" type="text" placeholder="Name" required />
                                 <input name="email" type="email" placeholder="Email" required />
                                 <textarea name="message" placeholder="Message" required />
