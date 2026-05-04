@@ -9,7 +9,7 @@ export default function Header() {
                 </h1>
 
                 <nav className="nav">
-                    <Link href="/">Home</Link>           
+                               
                 </nav>
             </div>
         </header>
