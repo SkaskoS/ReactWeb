@@ -882,12 +882,10 @@ a {
     text-align: center;
 }
 .contact-success {
-    text-align: center;
-    padding: 2rem;
-    background: #f7f7fa;
+    padding: 2rem;    
     border-radius: 8px;
 }
 
-    .contact-success h3 {
-        color: #0b2d52;
+    .contact-success p {
+        color: green;
     }
